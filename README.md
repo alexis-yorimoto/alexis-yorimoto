@@ -9,3 +9,9 @@ Outside of work, I served as Vice President of the Real Estate Club at UH, where
 In the short term, I hope to gain more hands-on experience through internships in Hawaii, particularly in event management, real estate, or international business. I want to continue developing my communication, leadership, and project coordination skills while learning from professionals in the field. In the long term, I hope to build a career that combines business operations, event coordination, and international perspectives, allowing me to contribute to projects that bring people and organizations together.
 
 Reviewed with help from Claude (Anthropic, 2026); written and edited by me
+
+## Engagements
+
+Each engagement is listed here with a link to its brief and decision memo, and the capability it exercised.
+
+(None yet. The first entry will be added when the first engagement is finished.)
