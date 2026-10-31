@@ -34,9 +34,9 @@ The main goal is to find the best way to lock in or protect the dollar value of 
 To meet these goals, I will compare three ways of managing the risk, step by step.
 1. **Collect current market data:** the EURUSD spot rate (1.1204), the quoted forward rate (1.1705), option prices, and 6-month interest rates for both currencies (about 4.18% for USD and 3.01% for EUR).
 2. **Calculate the dollars received under each hedge:**
-  - *Forward Contract:* sell euros at 1.1705, which gives about $2,575,100 with no uncertainty.
-  - *Money Market Hedge:* borrow euros today, convert them to dollars, and earn interest on the dollars. This gives about $2,479,300 with no uncertainty.
-  - *Options Hedge:* pay $42,680 up front for the right to sell euros at today's rate. This guarantees at least about $2,421,300 but keeps the upside if the euro rises.
+  - *Forward Contract:* sell euros at 1.1705, which gives about $2,575,100 with no uncertainty. *Pro:* a certain budget. *Con:* we give up any gain if the euro rises.
+  - *Money Market Hedge:* borrow euros today, convert them to dollars, and earn interest on the dollars. This gives about $2,479,300 with no uncertainty. *Pro:* the same certainty, built from the interest rates. *Con:* it uses our borrowing capacity and has more steps.
+  - *Options Hedge:* pay $42,680 up front for the right to sell euros at today's rate. This guarantees at least about $2,421,300 but keeps the upside if the euro rises. *Pro:* protection  plus upside. *Con:* the premium is paid even if we never need it.
 3. **Check the forward rate:** compare the quoted forward to what interest rates and option prices imply (about 1.127 to 1.131).
 4. **Build and test in Excel:** create a workbook that shows the results under different exchange rates, then check it carefully before making a recommendation.
 
