@@ -2,8 +2,10 @@
 type: brief
 engagement: fx-hedging
 capability: fx-hedging
+title: Hospital Records Hedge Brief
 date: 2026-10-23
 status: committed
+LLM Used: Claude AI
 hypothesis: I expect the quoted 1.1705 forward to beat a money-market hedge by about $96,000, because 1.1705 sits ~4.4 cents above the ~1.127 that USD and EUR interest rates justify.
 ---
 
