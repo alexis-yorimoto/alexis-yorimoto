@@ -9,16 +9,16 @@ hypothesis: I expect the quoted 1.1705 forward to beat a money-market hedge by a
 
 # Executive Memo (Scenario 36)
 
-**Created by:** [Alexis Yorimoto]  
-**Updated by:** [Alexis Yorimoto]  
+**Created by:** Alexis Yorimoto  
+**Updated by:** Alexis Yorimoto  
 **Date Created:** [10/30/2026]  
 **Date Updated:** [10/30/2026]  
-**Version:** [0.0]
+**Version:** 0.0
 **LLM Used:** [Claude AI]
 
 ---
 
-## Executive Summary (≤150 words)
+## Executive Summary
 This project looks at how a US hospital-records software firm can protect itself from exchange rate changes on a EUR 2,200,000 payment due from an Austrian hospital network in 182 days (April 23, 2027). The current EURUSD spot rate is 1.1204, so the payment is worth about $2,464,880 today. If the euro weakens, we receive fewer dollars when the customer pays. The analysis compares three strategies: a forward contract, a money market hedge, and an options hedge. I expect the forward contract to come out ahead, because the forward rate we were quoted (1.1705) is higher than interest rates suggest it should be. The final recommendation will come after the model is built and tested.
 
 ---
@@ -43,7 +43,7 @@ To meet these goals, I will compare three ways of managing the risk, step by ste
 ---
 
 ## Limitations & Next Steps
-**Limitations:** This analysis assumes the spot rate, forward rate, and option prices we were given are accurate. It ignores bank fees and our own borrowing costs, and it assumes the hospital pays in full and on time. I would test these with more time. I could be wrong if live market data shows a forward rate close to 1.127, which would mean the 1.1705 quote was out of date, or if the finished model shows the money amrket hedge doing as well as or better than the foward.
+**Limitations:** This analysis assumes the spot rate, forward rate, and option prices we were given are accurate. It ignores bank fees and our own borrowing costs, and it assumes the hospital pays in full and on time. I would test these with more time. I could be wrong if live market data shows a forward rate close to 1.127, which would mean the 1.1705 quote was out of date, or if the finished model shows the money market hedge doing as well as or better than the forward.
 
 **Next Steps:** I will write the model plan (Stage 2), build and check the Excel workbook (Stage 3), replace these numbers with live market data (Stage 4), and write the final recommendation (Stage 5).
 
