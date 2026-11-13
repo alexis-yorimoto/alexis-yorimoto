@@ -13,10 +13,10 @@ hypothesis: I expect the quoted 1.1705 forward to beat a money-market hedge by a
 
 **Created by:** Alexis Yorimoto  
 **Updated by:** Alexis Yorimoto  
-**Date Created:** [10/30/2026]  
-**Date Updated:** [10/30/2026]  
+**Date Created:** 10/30/2026
+**Date Updated:** 10/30/2026
 **Version:** 0.0
-**LLM Used:** [Claude AI]
+**LLM Used:** Claude AI
 
 ---
 
@@ -47,7 +47,7 @@ To meet these goals, I will compare three ways of managing the risk, step by ste
 ## Limitations & Next Steps
 **Limitations:** This analysis assumes the spot rate, forward rate, and option prices we were given are accurate. It ignores bank fees and our own borrowing costs, and it assumes the hospital pays in full and on time. I would test these with more time. I could be wrong if live market data shows a forward rate close to 1.127, which would mean the 1.1705 quote was out of date, or if the finished model shows the money market hedge doing as well as or better than the forward.
 
-**Next Steps:** Before writing the memo, I will have a second source verify the model. I will recompute the forward outcome (EUR 2,200,000 × 1.1705 ≈ $2,575,100), the money-market hedge (about $2,479,300), and the put cost ($42,680) by hand in a spreadsheet, and compare them with the model’s outputs. I will also compare my 1.127 parity forward against a published forward quote from a bank or market data site. If any figure differs by more than 0.5%, I will find the cause before going further. Then I will write the final recommendation.
+**Next Steps:** I will write the model plan (Stage 2), build and check the Excel workbook (Stage 3), replace these numbers with live market data (Stage 4), and write the final recommendation (Stage 5). Before writing the memo, I will have a second source verify the model. I will recompute the forward outcome (EUR 2,200,000 × 1.1705 ≈ $2,575,100), the money-market hedge (about $2,479,300), and the put cost ($42,680) by hand in a spreadsheet, and compare them with the model’s outputs. I will also compare my 1.127 parity forward against a published forward quote from a bank or market data site. If any figure differs by more than 0.5%, I will find the cause before going further. Then I will write the final recommendation.
 
 ---
 
