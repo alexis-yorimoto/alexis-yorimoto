@@ -132,7 +132,7 @@ If the firm instead **owed** `FC_AMT` euros at settlement, the risk flips: a str
 - **Money market (payable):** buy `FC_AMT / DF_FC` euros at spot today, funded by borrowing USD, and invest the euros to maturity. `USD_MM_PAY` = `−(FC_AMT / DF_FC) × S0_in × DF_USD`.
 - **Call option (payable):** pay `PREM_CALL × FC_AMT` today for a call on EUR with strike `K_CALL`. At settlement, for each `S_T` on the grid:
   - `USD_CALL(S_T)` = `−MIN(S_T, K_CALL) × FC_AMT + FV_PREM_CALL`
-- **Call cap:** `USD_CAP_CALL` = `MAX(USD_CALL)` across `S_T_grid`, which is the worst-case cost the call allows, net of premium = `−K_CALL × FC_AMT + FV_PREM_CALL`.
+- **Call cap:** `USD_CAP_CALL` = `MIN(USD_CALL)` across `S_T_grid`, which is the worst-case cost the call allows, net of premium = `−K_CALL × FC_AMT + FV_PREM_CALL`.
 - **Payable no hedge:** `USD_NO_HEDGE_PAY(S_T)` = `−S_T × FC_AMT`.
 ---
  
