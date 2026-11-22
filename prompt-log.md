@@ -19,3 +19,10 @@
 - **What you produced:** A nine-tab workbook (Cover, Legend, Inputs, Forward, MoneyMarket, Options, Sensitivity, Checks, Notes), with 53 named ranges, 497 formulas, an 11-row sensitivity grid with a line chart, and a Checks tab computed in the workbook.
 - **What was wrong:** N/A
  
+## 2026-11-21
+**Tool:** Claude (claude.ai)
+
+- **What I asked:** I gave Claude the Stage 4 instructions, my spec, `model.xlsx`, and my Stage 3 audit note, and asked for everything needed for Stage 4: live market data with sources, the populated workbook, and the market-data memo.
+- **What you produced:** Live 2026-11-20 inputs (EURUSD close 1.0971, 6-month CME Term SOFR 4.3838%, 6-month Euribor 3.043%) with sources, a populated `model.xlsx` (inputs changed only in the named-range cells, plus provenance text), a market-data memo with a CIP-forward comparison, and this log entry.
+- **What was wrong and how it was caught:** Yahoo returned the inverse pair `EUR=X` (0.9116), not `EURUSD=X`. This was caught by inverting the quote and cross-checking four other sources. Euribor for 11-20 was not posted, so 11-19 was used and noted in the memo. No published 182-day forward was found, so the outside-reference check stays pending. The `CHK_*` checkpoints on Inputs are stale at live inputs, and I left them unchanged because they are documentation only.
+
